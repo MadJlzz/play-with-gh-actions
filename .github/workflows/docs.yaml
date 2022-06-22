@@ -1,0 +1,12 @@
+name: Main Continuous Integration
+
+on:
+  push:
+    paths:
+      - 'docs/**.md'
+
+jobs:
+  Documentation:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This job should occurs only if we are changing documentation"
