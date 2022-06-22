@@ -3,4 +3,4 @@ def hello(name: str):
 
 
 if __name__ == '__main__':
-    hello("Julien")
+    hello("Julien, yay")
