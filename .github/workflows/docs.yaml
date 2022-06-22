@@ -1,4 +1,4 @@
-name: Main Continuous Integration
+name: Documentation Continuous Integration
 
 on:
   push:
